@@ -1,19 +1,13 @@
 @import "lib/bootstrap.less";
+
+@import "reset.less";
+@import "datagrid.less";
+@import "header.less";
+@import "menu.less";
+
+@sidebarWidth : 200px;
 /** reset **/
-body {
-  font-size: 14px;
-}
-body,
-ul,
-li,
-div,
-h3 {
-  padding: 0;
-  margin: 0;
-}
-ul {
-  list-style: none;
-}
+
 /** layout **/
 .main {
   display: box;
@@ -48,7 +42,7 @@ ul {
 /** sidebar **/
 .sidebar {
   height: 600px;
-  width: 200px;
+  width: @sidebarWidth;
   background-color: #DFE6EE;
   border-right: 1px solid #B4BBC4;
 }
@@ -138,17 +132,4 @@ ul {
   text-shadow: 0 1px 0 #FFFFFF;
   padding-left: 10px;
 }
-.chats li.chat {
-  border-top: 1px solid #ECECEC;
-  line-height: 26px;
-  text-indent: 10px;
-}
-/** activeChatView **/
-.chats li.chat {
-  display: box;
-  box-orient: horizonal;
-  display: -moz-box;
-  -moz-box-orient: horizonal;
-  display: -webkit-box;
-  -webkit-box-orient: horizonal;
-}
+

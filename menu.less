@@ -1,0 +1,44 @@
+.menus{
+    width: @sidebarWidth;
+    .menubar{
+        #gradient > .vertical(#EFF1F4, #E6E8EB);
+        border-bottom: 1px solid #B2B2B2;
+        border-top: 1px solid white;
+        cursor: default;
+        height: 23px;
+        padding: 3px 0 0;
+        position: relative;
+
+        .button{
+            background: url("images/open_close.png") no-repeat scroll 0 -10px transparent;
+            cursor: default;
+            display: inline-block;
+            height: 10px;
+            margin: 4px 5px 0;
+            overflow: hidden;
+            position: relative;
+            width: 9px;
+        }
+    }
+
+    li{
+        #gradient > .vertical(#FFFFFF, #F5F5F5);
+        height: 43px;
+        line-height: 8px;
+        overflow: hidden;
+        position: relative;
+
+        border-bottom: 1px solid #B2B2B2;
+        border-top: 1px solid white;
+        cursor: default;
+        padding: 3px 0 0;
+
+        &.selected{
+            #gradient > .vertical(#5B9FDC, #1F79C2);
+            border-bottom: 1px solid #1E78C2;
+            border-top: 1px solid #0C76D7;
+        }
+}
+
+}
+

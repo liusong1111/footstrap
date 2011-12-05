@@ -1,0 +1,335 @@
+    .editor_tab {
+        padding : 0 0 0 0;
+        margin : 0 auto;
+        overflow: hidden;
+        position:relative;
+        padding-top: 32px;
+        border-bottom: 1px solid white;
+        background-color:#e8e8e8;
+    }
+
+    .editor_tab .btnsesssioncontainer {
+        padding : 5px 40px 0 21px;
+        z-index : 100;
+        height: 25px;
+        overflow: visible;
+        white-space: nowrap;
+        color: #f5f5f5;
+        font-family : Arial;
+        font-size : 12px;
+        border-bottom : 1px solid white;
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #262829),color-stop(1, #2f3031));
+        background: -moz-linear-gradient(center bottom,#262829 0%, #2f3031 100%);
+        margin-top : -32px;
+        width : auto;
+
+        -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+        -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+        box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+    }
+
+    .editor_tab .btnsesssioncontainer>div {
+        cursor: default;
+        display: block;
+        display : inline-block;
+        margin: 0 0 0 0;
+        padding: 0;
+        position : relative;
+        vertical-align : bottom;
+    }
+
+    .editor_tab .btnsesssioncontainer .session_btn {
+        padding      : 0 20px;
+        position     : relative;
+        margin-right : -20px;
+        margin-top   : 0;
+        height:25px;
+        border-bottom:1px solid white;
+    }
+
+    .editor_tab .btnsesssioncontainer .session_btn .tab_middle {
+        background-image    : url(images/editor_tab.png);
+        background-position : 0 -104px;
+        height              : 20px;
+        position            : relative;
+        overflow            : hidden;
+        padding             : 5px 0 0 0;
+    }
+
+    .editor_tab .btnsesssioncontainer .session_btn .tab_middle .sessiontab_icon {
+        height:8px;
+        left:0;
+        position:absolute;
+        top:10px;
+        width:5px;
+    }
+
+    .editor_tab .btnsesssioncontainer .session_btn .sessiontab_icon {
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+
+    .editor_tab .btnsesssioncontainer .sessiontab_saving {
+        position: absolute;
+        right: 0;
+        top: 7px;
+        z-index: 10;
+    }
+
+    .editor_tab .btnsesssioncontainer .loading_active .sessiontab_saving,
+    .editor_tab .btnsesssioncontainer .saving_active .sessiontab_saving {
+        height: 15px;
+        width: 15px;
+        background-image: url(images/tab-save-spinner-active.gif);
+    }
+
+    .editor_tab .btnsesssioncontainer .loading .sessiontab_saving,
+    .editor_tab .btnsesssioncontainer .saving .sessiontab_saving {
+        height: 13px;
+        width: 13px;
+        background-image: url(images/tab-save-spinner-inactive.gif);
+    }
+
+    .editor_tab .btnsesssioncontainer .over .sessiontab_saving {
+        display: none;
+    }
+
+    /*.editor_tab .btnsesssioncontainer .saving_active .sessiontab_icon {
+        background-image: url(images/save-indicator-active-tab.gif);
+    }
+    .editor_tab .btnsesssioncontainer .saving .sessiontab_icon {
+        background-image: url(images/save-indicator-inactive-tab.gif);
+    }*/
+
+    /*.editor_tab .btnsesssioncontainer .loading_active .sessiontab_icon {
+        background-image: url(images/load-indicator-active-tab.gif);
+    }
+
+    .editor_tab .btnsesssioncontainer .loading .sessiontab_icon {
+        background-image: url(images/load-indicator-inactive-tab.gif);
+    }*/
+
+    .editor_tab .btnsesssioncontainer .session_btn .tab_middle .sessiontab_title {
+        overflow : hidden;
+        padding  : 0 0 0 0;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    .editor_tab .btnsesssioncontainer .session_btn.btnclose .tab_middle .sessiontab_title {
+        margin-right : 15px;
+        margin-left : 4px;
+    }
+
+    .editor_tab .scale .session_btn .sessiontab_title{
+        display : block;
+        overflow : hidden;
+        text-overflow : ellipsis;
+        white-space : nowrap;
+    }
+
+    .editor_tab .btnsesssioncontainer .tab_left,
+    .editor_tab .btnsesssioncontainer .tab_right {
+        position            : absolute;
+        height              : 25px;
+        width               : 20px;
+        background-image    : url(images/editor_tab.png);
+        background-repeat   : no-repeat;
+        top                 : 0;
+    }
+
+    .editor_tab .btnsesssioncontainer .tab_left {
+        background-position : 0 -78px;
+        left                : 0;
+    }
+    .editor_tab .btnsesssioncontainer .tab_right {
+        background-position : 0 -130px;
+        right               : 0;
+    }
+
+    .editor_tab .btnsesssioncontainer div.down {
+        text-shadow: none;
+        color: #d9d9d9;
+    }
+
+    .editor_tab .btnsesssioncontainer div.over .tab_middle {
+        background-position : 0 -182px;
+    }
+    .editor_tab .btnsesssioncontainer div.over .tab_left {
+        background-position : 0 -156px;
+    }
+    .editor_tab .btnsesssioncontainer div.over .tab_right {
+        background-position : 0 -208px;
+    }
+
+    .editor_tab .btnsesssioncontainer div.curbtn {
+        color       : #333333;
+        cursor      : default;
+        text-shadow : rgba(255, 255, 255, 1) 0px 1px 0px;
+        z-index     : 10;
+        height:25px;
+        border-bottom:1px solid #e8e8e8;
+    }
+
+    .editor_tab .btnsesssioncontainer div.curbtn .tab_middle {
+        background-position : 0 -26px;
+        padding             : 6px 0 0 0;
+        height:19px;
+        color:#000000;
+    }
+    .editor_tab .btnsesssioncontainer div.curbtn .tab_left {
+        background-position : 0 0;
+    }
+    .editor_tab .btnsesssioncontainer div.curbtn .tab_right {
+        background-position : 0 -52px;
+    }
+
+    .editor_tab .scale .btn .tab_middle {
+        display : block;
+        overflow : hidden;
+        text-overflow : ellipsis;
+        white-space : nowrap;
+    }
+
+    .editor_tabFocus .curbtn{
+    }
+
+    .editor_tab .btnsesssioncontainer .btnclose strong {
+        width               : 14px;
+        height              : 14px;
+        display             : block;
+        position            : absolute;
+        right               : 0;
+        top                 : 7px;
+        background-image    : url(images/close_tab_btn.png);
+        background-repeat   : no-repeat;
+        background-position : 0 -14px;
+    }
+
+    .editor_tab .btnsesssioncontainer .btnclose strong:hover {
+        background-position : -14px -14px;
+    }
+
+    .editor_tab .btnsesssioncontainer .btnclose strong:active {
+        background-position : -28px -14px;
+    }
+
+    .editor_tab .btnsesssioncontainer .curbtn.btnclose strong {
+        background-position : 0 0;
+        top: 7px;
+    }
+
+    .editor_tab .btnsesssioncontainer .curbtn.btnclose strong:hover {
+        background-position : -14px 0;
+    }
+
+    .editor_tab .btnsesssioncontainer .curbtn.btnclose strong:active {
+        background-position : -28px 0;
+    }
+
+    .editor_tab .editor_bg {
+        top : 32px;
+        bottom : 0px;
+        height : auto;
+        position : absolute;
+        margin: 0 auto;
+        background: #e8e8e8 url(images/editor_tab_bg.png) repeat 0 0;
+        /*border-bottom: 1px solid #8c8c8c;
+        border-left: 1px solid #8c8c8c;
+        border-right: 1px solid #8c8c8c;*/
+        overflow: hidden;
+        clear: both;
+        left: 0;
+        right: 0;
+    }
+
+    .editor_tab .editor_bg .editor_bg_content {
+        width: 430px;
+        margin: 100px auto 0;
+        background: url(images/empty_editor_icon.png) no-repeat center 0;
+        padding-top: 170px;
+        text-align: center;
+        color: #333333;
+        text-shadow : rgba(255, 255, 255, .71) 1px 1px 1px;
+        font-size: 18px;
+    }
+
+    .infraeditor.editor_tab .editor_bg .editor_bg_content {
+        margin-top: 0;
+    }
+
+    .editor_tab .editor_bg .editor_bg_content .editor_bg_message2 {
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(237,237,237)),color-stop(1, rgb(255,255,255)));
+        background: -moz-linear-gradient(center bottom,rgb(237,237,237) 0%,rgb(255,255,255) 100%);
+        -webkit-box-shadow: 1px 1px 3px #aaaaaa;
+        -moz-box-shadow: 1px 1px 3px #aaaaaa;
+        box-shadow: 1px 1px 1px #aaaaaa;
+        padding: 15px 20px;
+        margin-top: 21px;
+        color: #2270b2;
+        font-size: 11px;
+        text-transform:uppercase;
+        border-radius : 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -webkit-border-radius: 4px;
+    }
+
+    .editor_tab .editor_bg .editor_bg_content .editor_bg_message {
+        color: #489829;
+        font-family: georgia;
+        padding-top: 4px;
+        background: url(images/green-arrow-left.png) no-repeat 0 0;
+        text-shadow : rgba(240, 240, 240, .71) 1px 1px 1px;
+    }
+
+    .editor_tab .editor_bg .editor_bg_message-top {
+        color: #489829;
+        font-family: georgia;
+        padding-top: 4px;
+        text-shadow : rgba(240, 240, 240, .71) 0px 1px 1px;
+        font-size: 16px;
+        margin: 35px auto 0;
+        width: 430px;
+        text-align: center;
+        display: none;
+    }
+
+    .infraeditor.editor_tab .editor_bg .editor_bg_message-top {
+        display: block;
+    }
+
+    .editor_tab .editor_bg .editor_bg_message-top span {
+        color: #a1a1a1;
+        font-size: 12px;
+    }
+
+    .editor_tab .editor_bg .editor_divider {
+        background: url(images/empty_editor_divider.png) no-repeat center center;
+        height: 14px;
+        width: 430px;
+        margin-top: 20px;
+    }
+
+    .editor_tab .session_page {
+        display : none;
+        position : absolute;
+        top : 32px;
+        bottom : 0;
+        left : 0;
+        right : 0;
+        z-index : 10;
+        margin: 0 auto;
+        background-color: #e8e8e8;
+        /*border-bottom: 1px solid #8C8C8C;*/
+        border-top:3px solid #e8e8e8;
+        overflow: hidden;
+        clear: both;
+    }
+
+    .editor_tab .session_page.curpage{
+        display : block;
+    }

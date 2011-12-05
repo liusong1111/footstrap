@@ -1,0 +1,140 @@
+.header{
+  overflow: hidden;
+  position: relative;
+
+ .logo {
+    padding: 8px 20px 12px;
+    color: @white;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*float: left;*/
+  }
+
+ .welcome{
+    float: right;
+    color: #DFDFDF;
+
+    font-size: 12px;
+
+    a{
+        color: white;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+ }
+
+  .nav{
+    margin-left: @sidebarWidth;
+    float: left;
+    position: relative;
+    bottom: -10px;
+
+      /*background: -moz-linear-gradient(center bottom , #262829 0%, #2F3031 100%) repeat scroll 0 0 transparent;*/
+      /*background: -webkit-linear-gradient(center bottom , #262829 0%, #2F3031 100%) repeat scroll 0 0 transparent;*/
+      border-bottom: 1px solid white;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
+      color: #F5F5F5;
+      font-family: Arial;
+      font-size: 12px;
+      height: 25px;
+      /*margin-top: -32px;*/
+      overflow: visible;
+      padding: 5px 45px 0 21px;
+      white-space: nowrap;
+      width: auto;
+      z-index: 100;
+    
+
+
+li{
+  color: #D9D9D9;
+  text-shadow: none;
+  border-bottom: 1px solid white;
+  height: 25px;
+  margin-top: 0;
+  position: relative;
+  margin-right: -20px;
+
+  cursor: default;
+  display: inline-block;
+  /*margin: 0;*/
+  vertical-align: bottom;
+
+    span.close{
+        background-image: url(images/close_tab_btn.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        display: block;
+        height: 14px;
+        width: 14px;
+        overflow: hidden;
+
+        position: absolute;
+        right: 20px;
+        top: 7px;
+    }
+
+    &:hover{
+         span.close{
+                background-position: -14px 0;
+            }
+            a{
+              background-position: 0 -182px;
+
+              &::before{
+                background-position: 0 -156px;
+              }
+              &::after{
+                background-position: 0 -208px;
+              }
+            }
+    }
+
+
+
+  a{
+  background-image: url("images/editor_tab.png");
+  background-position: 0 -104px;
+  height: 20px;
+  /*overflow: hidden;*/
+  padding: 5px 60px 0 60px;
+  position: relative;
+
+  color: #D9D9D9;
+  text-shadow: none;
+
+  &::before, &::after{
+      content: "";
+      display: block;
+  background-image: url("images/editor_tab.png");
+  background-repeat: no-repeat;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+  }
+
+&::before{
+     background-position: 0 -78px;
+      left: 0;
+}
+  &::after{
+  background-position: 0 -130px;
+  right: 0;
+  }
+
+
+  }
+}
+
+        }
+
+
+  }

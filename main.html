@@ -3,15 +3,23 @@
 <head>
     <title></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link href="app.css" type="text/css" rel="stylesheet" />
-    <!--<link rel="stylesheet/less" type="text/css" href="app.less">-->
-    <!--<script src="less-1.1.4.js"></script>-->
+    <!--<link href="app.css" type="text/css" rel="stylesheet"/>-->
+    <link rel="stylesheet/less" type="text/css" href="app.less">
+    <script src="less-1.1.4.js"></script>
 </head>
 <body>
 <div class="header">
+    <div class="logo">Logo</div>
+    <div class="welcome">您好，admin <a class="logout" href="/logout">退出</a></div>
 
+    <ul class="nav">
+        <li><a href="#">任务监控</a><span href="#" class="close"></span></li>
+        <li><a href="#">我的信息</a><span href="#" class="close"></span></li>
+        <li class="normal"><a href="#">我的任务</a><span href="#" class="close"></span></li>
+    </ul>
 </div>
 <div class="main">
+
 
     <div class="sidebar">
         <h3>标题</h3>
@@ -26,21 +34,58 @@
     </div>
     <div class="content">
         <h3>这是标题 &gt; 好啊</h3>
-        <ul class="chats">
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-            <li class="chat">这是一条</li>
-        </ul>
-        <div class="writer">
-            <textarea class="writerInput"></textarea>
-            <button class="sendBtn">发送</button>
-        </div>
+
+        <table class="datagrid">
+            <thead>
+            <tr>
+                <th>工程名</th>
+                <th>版本号</th>
+                <th>用户</th>
+                <th>创建时间</th>
+                <th>修改时间</th>
+                <th>查看</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>adsfsdfsdf</td>
+                <td>dsfdsf</td>
+                <td>sdfdsf</td>
+                <td>sdfdsf</td>
+            </tr>
+            <tr>
+                <td>adsfsdfsdf</td>
+                <td>dsfdsf</td>
+                <td>sdfdsf</td>
+                <td>sdfdsf</td>
+            </tr>
+            <tr>
+                <td>adsfsdfsdf</td>
+                <td>dsfdsf</td>
+                <td>sdfdsf</td>
+                <td>sdfdsf</td>
+            </tr>
+            <tr>
+                <td>adsfsdfsdf</td>
+                <td>dsfdsf</td>
+                <td>sdfdsf</td>
+                <td>sdfdsf</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
+</div>
+
+<div  class="menus">
+    <h3 class="menubar">
+           projects
+    </h3>
+    <ul>
+        <li><a>boots</a></li>
+        <li class="selected"><a>widgets</a></li>
+        <li><a>wfsfds</a></li>
+    </ul>
+
 </div>
 </body>
 </html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="tab.less" />
+
+</head>
+<body>
+<div class="editor_tab">
+    <div class="btnsesssioncontainer"> </div>
+    <div class="editor_bg">
+        <div class="editor_bg_message-top">
+            Invite people to this project by sharing the URL with them.
+            <!--                    <span>To access private projects both parties must have a Premium Account.</span>-->
+            <div class="editor_divider"></div>
+        </div>
+        <div class="editor_bg_content">
+            <div class="editor_bg_message">Open a file or create a new one to get started</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
