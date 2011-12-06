@@ -31,10 +31,10 @@
  }
 
   .nav{
-    margin-left: @sidebarWidth;
+    margin-left: @sidebarWidth - 25px;
     float: left;
     position: relative;
-    bottom: -10px;
+    bottom: -18px;
 
       /*background: -moz-linear-gradient(center bottom , #262829 0%, #2F3031 100%) repeat scroll 0 0 transparent;*/
       /*background: -webkit-linear-gradient(center bottom , #262829 0%, #2F3031 100%) repeat scroll 0 0 transparent;*/
@@ -66,13 +66,12 @@ li{
   padding-right: 20px;
   cursor: default;
   display: inline-block;
-  /*margin: 0;*/
   vertical-align: bottom;
 
     span.close{
         background-image: url(images/close_tab_btn.png);
         background-repeat: no-repeat;
-        background-position: 0 0;
+        background-position: 0 -14px;
         display: block;
         height: 14px;
         width: 14px;
@@ -80,13 +79,14 @@ li{
 
         position: absolute;
         right: 20px;
-        top: 7px;
+        top: 0;
+
+        &:hover{
+            background-position: -14px -14px;
+        }
     }
 
     &:hover{
-         span.close{
-                background-position: -14px 0;
-            }
             a{
               background-position: 0 -182px;
 
@@ -105,12 +105,15 @@ li{
   background-image: url("images/editor_tab.png");
   background-position: 0 -104px;
   height: 20px;
-  /*overflow: hidden;*/
-  padding: 5px 40px 0 40px;
+  overflow: hidden;
+  padding: 5px 40px 5px 40px;
   position: relative;
 
   color: #D9D9D9;
   text-shadow: none;
+  text-decoration: none;
+  outline: none;
+
 
   &::before, &::after{
       content: "";
@@ -130,6 +133,42 @@ li{
   background-position: 0 -130px;
   right: -20px;
   }
+
+
+  }
+
+  &.selected{
+    border-bottom: 1px solid #E8E8E8;
+    color: #333333;
+    cursor: default;
+    height: 25px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    z-index: 10;
+
+    span.close{
+        background-position: 0 0;
+
+        &:hover{
+         background-position: -14px 0;
+        }
+        }
+
+
+
+    a{
+        background-position: 0 -26px;
+        color: #000000;
+        height: 19px;
+        padding: 6px 40px 5px 40px;
+
+        &::before{
+                background-position: 0 0;
+            }
+
+            &::after{
+                background-position: 0 -52px;
+            }
+    }
 
 
   }

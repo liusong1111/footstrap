@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5683ca98-b502-49e3-9372-6a5a45c78c2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datagrid.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.less" afterPath="$PROJECT_DIR$/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datagrid.less" afterPath="$PROJECT_DIR$/datagrid.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.less" afterPath="$PROJECT_DIR$/header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bootstrap.less" afterPath="$PROJECT_DIR$/lib/bootstrap.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.less" afterPath="$PROJECT_DIR$/menu.less" />
     </list>
     <ignored path="footstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +66,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+            <state line="23" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="-16.32258">
               <folding />
             </state>
           </provider>
@@ -87,7 +84,7 @@
       <file leaf-file-name="menu.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="59" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="97" column="18" selection-start="2339" selection-end="2347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +102,7 @@
       <file leaf-file-name="datagrid.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datagrid.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="15" selection-start="1068" selection-end="1072" vertical-scroll-proportion="0.0">
+            <state line="131" column="10" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +111,23 @@
       <file leaf-file-name="header.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="49" selection-start="2268" selection-end="2268" vertical-scroll-proportion="0.24410541">
+            <state line="151" column="37" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.6445498">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor_tab.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/editor_tab.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patterns.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/patterns.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="520" column="13" selection-start="10720" selection-end="10720" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,27 +136,16 @@
       <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bootstrap.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/reset.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="1" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/mixins.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="27" selection-start="5270" selection-end="5270" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="close_tab_btn.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/close_tab_btn.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -167,6 +169,7 @@
         <option value="$PROJECT_DIR$/app.less" />
         <option value="$PROJECT_DIR$/menu.less" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/lib/bootstrap.less" />
         <option value="$PROJECT_DIR$/header.less" />
       </list>
     </option>
@@ -203,6 +206,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,10 +226,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,11 +387,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-5" width="1442" height="906" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -386,11 +404,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892086" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892086" sideWeight="0.6706667" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -447,46 +464,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/open_close.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/tab-save-spinner-active.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tab/images/tab-save-spinner-active.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/save-indicator-active-tab.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/editor_tab.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="59" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datagrid.html">
@@ -494,29 +474,54 @@
         <state line="7" column="62" selection-start="231" selection-end="239" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/menu.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="18" selection-start="2339" selection-end="2347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/close_tab_btn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="-16.32258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datagrid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="15" selection-start="1068" selection-end="1072" vertical-scroll-proportion="0.0" />
+        <state line="131" column="10" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/patterns.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="520" column="13" selection-start="10720" selection-end="10720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="16" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/reset.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="1" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="27" selection-start="5270" selection-end="5270" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/images/editor_tab.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="49" selection-start="2268" selection-end="2268" vertical-scroll-proportion="0.24410541">
+        <state line="151" column="37" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.6445498">
           <folding />
         </state>
       </provider>
