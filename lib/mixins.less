@@ -109,6 +109,18 @@
           box-shadow: @shadow;
 }
 
+.box-shadow2(@shadow: 0 1px 3px rgba(0,0,0,.25), @shadow2: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: @shadow, @shadow2;
+     -moz-box-shadow: @shadow, @shadow2;
+          box-shadow: @shadow, @shadow2;
+}
+
+.box-shadow3(@shadow: 0 1px 3px rgba(0,0,0,.25), @shadow2: 0 1px 3px rgba(0,0,0,.25), @shadow3: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: @shadow,@shadow2,@shadow3;
+     -moz-box-shadow: @shadow,@shadow2,@shadow3;
+          box-shadow: @shadow, @shadow2, @shadow3;
+}
+
 // Transitions
 .transition(@transition) {
      -webkit-transition: @transition;
