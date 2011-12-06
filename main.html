@@ -51,24 +51,24 @@
         </ul>
     </div>
     <div class="content">
-            <div class="toolbar">
-                <form>
-                    <input type="text" class="search" placeholder="按任务查询..." /><span class="clear"></span>
-                </form>
-                <div class="paginate">
-                    <ul>
-                        <li><a href=""><strong>&lt;</strong></a></li>
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="" class="active">3</a></li>
-                        <li><a href="">4</a></li>
-                        <li><a href="">5</a></li>
-                        <li><a href="">6</a></li>
-                        <li><a href="">7</a></li>
-                        <li><a href=""><strong>&gt;</strong></a></li>
-                    </ul>
-                </div>
+        <div class="toolbar">
+            <form>
+                <input type="text" class="search" placeholder="按任务查询..."/><span class="clear"></span>
+            </form>
+            <div class="paginate">
+                <ul>
+                    <li><a href=""><strong>&lt;</strong></a></li>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="" class="active">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">6</a></li>
+                    <li><a href="">7</a></li>
+                    <li><a href=""><strong>&gt;</strong></a></li>
+                </ul>
             </div>
+        </div>
 
 
         <table class="datagrid">
@@ -117,12 +117,65 @@
             </tr>
             </tbody>
         </table>
+
+        <form>
+            <fieldset>
+                <legend>添加用户</legend>
+                <div class="clearfix">
+                    <label>用户名:</label>
+
+                    <div class="input"><input type="text"/></div>
+                </div>
+                <div class="clearfix">
+                    <label>密码:</label>
+
+                    <div class="input"><input type="password"/></div>
+                </div>
+                <div class="clearfix">
+                    <label>确认密码:</label>
+
+                    <div class="input"><input type="password"/></div>
+                </div>
+                <div class="clearfix">
+                    <label>邮箱地址:</label>
+
+                    <div class="input"><input type="text"/></div>
+                </div>
+                <div class="clearfix">
+                    <label>权限角色:</label>
+
+                    <div class="input">
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <label>创建人IP:</label>
+
+                    <div class="input"><input type="text"/></div>
+                </div>
+
+                <div class="actions">
+                    <input type="submit" class="btn primary" value="保存">
+                    &nbsp;
+                    <button type="reset" class="btn">取消</button>
+                </div>
+
+            </fieldset>
+
+
+        </form>
     </div>
 </div>
 
-<div  class="menus">
+<div class="menus">
     <h3 class="menubar">
-           projects
+        projects
     </h3>
     <ul>
         <li><a>boots</a></li>

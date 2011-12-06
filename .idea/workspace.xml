@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5683ca98-b502-49e3-9372-6a5a45c78c2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/noise-f3f3f3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buttons.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.less" afterPath="$PROJECT_DIR$/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datagrid.less" afterPath="$PROJECT_DIR$/datagrid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form.less" afterPath="$PROJECT_DIR$/form.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bootstrap.less" afterPath="$PROJECT_DIR$/lib/bootstrap.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset.less" afterPath="$PROJECT_DIR$/reset.less" />
     </list>
     <ignored path="footstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +68,16 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="33" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-8.548388">
+            <state line="165" column="55" selection-start="5428" selection-end="5428" vertical-scroll-proportion="-10.032258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/bootstrap.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="14" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,7 +86,7 @@
       <file leaf-file-name="form.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="27" selection-end="27" vertical-scroll-proportion="0.046413504">
+            <state line="37" column="20" selection-start="864" selection-end="864" vertical-scroll-proportion="0.443038">
               <folding />
             </state>
           </provider>
@@ -87,7 +95,7 @@
       <file leaf-file-name="app.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="7" column="21" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +113,7 @@
       <file leaf-file-name="forms.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/forms.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="16" selection-start="2739" selection-end="2754" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="-5.285714">
               <folding />
             </state>
           </provider>
@@ -114,7 +122,16 @@
       <file leaf-file-name="patterns.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/patterns.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="11" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
+            <state line="544" column="0" selection-start="11159" selection-end="13130" vertical-scroll-proportion="65.57143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttons.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="10" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,11 +162,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/datagrid.html" />
-        <option value="$PROJECT_DIR$/lib/bootstrap.less" />
         <option value="$PROJECT_DIR$/menu.less" />
         <option value="$PROJECT_DIR$/header.less" />
         <option value="$PROJECT_DIR$/datagrid.less" />
         <option value="$PROJECT_DIR$/reset.less" />
+        <option value="$PROJECT_DIR$/buttons.less" />
+        <option value="$PROJECT_DIR$/lib/bootstrap.less" />
         <option value="$PROJECT_DIR$/app.less" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/form.less" />
@@ -432,18 +450,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/editor_tab.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/open_close.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -477,27 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/patterns.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="11" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="16" selection-start="2739" selection-end="2754" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="33" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-8.548388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/clear.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -524,16 +509,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/forms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="-5.285714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/patterns.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="544" column="0" selection-start="11159" selection-end="13130" vertical-scroll-proportion="65.57143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="10" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="7" column="21" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="55" selection-start="5428" selection-end="5428" vertical-scroll-proportion="-10.032258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="27" selection-end="27" vertical-scroll-proportion="0.046413504">
+        <state line="37" column="20" selection-start="864" selection-end="864" vertical-scroll-proportion="0.443038">
           <folding />
         </state>
       </provider>
