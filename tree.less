@@ -1,0 +1,50 @@
+div.tree{
+    margin-left: 80px;
+    margin-bottom: 80px;
+    background-color: #ff9;
+    width: 200px;
+    border: 1px solid #ccc;
+
+    & > ul {
+        margin-left: -8px;
+    }
+
+    h3{
+        /*padding-left: 10px;*/
+        background-image: url(images/folder.png), url(images/tree_close_arrow_small.png);
+        background-repeat: no-repeat;
+        background-position: 10px 0,0 50%;
+        cursor: pointer;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 30px;
+    }  
+    
+    li.close > h3{
+        background-position: 8px 0,-10px 50%;
+    }
+
+    li.selected{
+        #gradient > .vertical(#1F82D2, #2890E5);
+        border-bottom: 1px solid #185F97;
+        border-top: 1px solid #3A9BEC;
+        color: #FFF;
+    }
+
+    & > ul > li{
+        padding-left: 8px;
+        & > ul > li{
+            padding-left: 16px;
+            & > ul > li {
+                padding-left: 24px;
+                & > ul > li {
+                    padding-left: 32px;
+                }
+            }
+        }
+    }
+
+    ul{
+
+    }
+}

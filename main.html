@@ -55,6 +55,13 @@
             <form>
                 <input type="text" class="search" placeholder="按任务查询..."/><span class="clear"></span>
             </form>
+            
+            <span class="buttonGroup">
+                <a href="#">全部</a>
+                <a href="#">已完成</a>
+                <a href="#">未完成</a>
+            </span>
+            
             <div class="paginate">
                 <ul>
                     <li><a href=""><strong>&lt;</strong></a></li>
@@ -218,6 +225,42 @@
 
 
         </form>
+
+        <br /><br /><br /><br /><br /><br />
+
+        <div class="tree">
+            <ul>
+                <li><h3>sub1</h3></li>
+                <li><h3>sub2</h3></li>
+                <li class="open">
+                    <h3>sub3</h3>
+                    <ul>
+                        <li class="selected"><h3>ss</h3></li>
+                        <li>
+                            <h3>aa</h3>
+                            <ul>
+                                <li><h3>xxx</h3></li>
+                                <li>
+                                    <h3>yyy</h3>
+                                    <ul>
+                                        <li><h3>中文</h3></li>
+                                        <li><h3>world</h3></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="close">
+                    <h3>sub3</h3>
+                    <ul>
+                        <li><h3>ss</h3></li>
+                        <li><h3>aa</h3></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
     </div>
 </div>
 </body>
