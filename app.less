@@ -30,7 +30,25 @@ body{
   box-flex: 1;
   -moz-box-flex: 1;
   -webkit-box-flex: 1;
+
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+
+  box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
 }
+
+.content iframe, .content > *{
+    display: block;
+
+    box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+
 /** header **/
 .header {
   background-color: #264175;
